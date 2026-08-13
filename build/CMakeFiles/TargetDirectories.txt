@@ -1,0 +1,5 @@
+/home/vignesh/QT_GUI/qt_pdf_viewer/build/CMakeFiles/question_paper_viewer.dir
+/home/vignesh/QT_GUI/qt_pdf_viewer/build/CMakeFiles/edit_cache.dir
+/home/vignesh/QT_GUI/qt_pdf_viewer/build/CMakeFiles/rebuild_cache.dir
+/home/vignesh/QT_GUI/qt_pdf_viewer/build/CMakeFiles/question_paper_viewer_autogen_timestamp_deps.dir
+/home/vignesh/QT_GUI/qt_pdf_viewer/build/CMakeFiles/question_paper_viewer_autogen.dir

@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_question_paper_viewer_FILE /home/vignesh/QT_GUI/qt_pdf_viewer/build/question_paper_viewer)
+set(__QT_DEPLOY_TARGET_question_paper_viewer_TYPE EXECUTABLE)
