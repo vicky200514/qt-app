@@ -20,8 +20,7 @@ expansion module.
    - If the board isn't detected, force download mode: hold **BOOT**, plug
      in USB, then release **BOOT**.
 4. From the device list, select **"Seeed XIAO S3"** — this is the correct
-   target for the XIAO ESP32S3 + Wio-SX1262 combo (correct SPI/reset/busy
-   pin mapping for the SX1262).
+   target for the XIAO ESP32S3 + Wio-SX1262 combo.
 5. Choose the latest **Stable** firmware release and click **Flash**. Do not
    unplug during flashing — the board reboots automatically when done.
 6. **Security keys — backup/restore prompt:** on a first-time flash there is
@@ -44,13 +43,13 @@ expansion module.
 
 ## 2. Installing MeshApp on the Laptop
 
-Ready-made packages are published on the project's releases page.
+Ready-made packages are published on the project's releases on tj
 
 - **Windows:** download and run the `.msi` installer.
 - **macOS:** download the `.dmg`, open it, and move MeshApp to Applications.
 - **Debian / Ubuntu:** download the `.deb` package and install with `apt` or
   your package manager.
-
+  
 Repeat installation on each laptop/system that will run its own node.
 
 ---
