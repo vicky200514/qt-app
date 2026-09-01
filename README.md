@@ -50,13 +50,6 @@ Ready-made packages are published on the project's releases page.
 - **macOS:** download the `.dmg`, open it, and move MeshApp to Applications.
 - **Debian / Ubuntu:** download the `.deb` package and install with `apt` or
   your package manager.
-- **Linux (AppImage):** download the `.AppImage`, make it executable, and
-  run it.
-- **Flatpak:**
-  ```bash
-  flatpak install --user https://flatpak.privatepractice.app/app.privatepractice.meshapp.flatpakref
-  flatpak run app.privatepractice.meshapp
-  ```
 
 Repeat installation on each laptop/system that will run its own node.
 
@@ -105,8 +98,7 @@ you can also keep more than one profile per node and switch between them.
    - Preferred: check your router's admin panel under "Connected Devices" /
      "DHCP Client List".
    - No router access: run `arp -a` in Command Prompt on a laptop on the
-     same WiFi, or use a scanner tool (Advanced IP Scanner / Fing) and look
-     for the Espressif-vendor device. The node's WiFi MAC address will be
+     same WiFi,The node's WiFi MAC address will be
      one digit off from its BLE MAC (e.g. BLE `...1A:79` vs WiFi
      `...1A:78`).
 4. In MeshApp, add a new connection: **Connection type: TCP**, enter the
@@ -126,43 +118,26 @@ you can also keep more than one profile per node and switch between them.
      `IN` for India). It shows `UNSET` by default — the radio stays
      disabled until this is set.
    - Leave **Frequency offset** at `0` unless you have a specific hardware
-     calibration reason to change it (don't confuse it with Region).
-   - Save/apply — the device reboots to apply the change.
+     calibration reason to change it.
 3. **Match settings across both nodes.** For two nodes to hear each other:
    - Same **Region**
    - Same **Modem preset** (default: `LONG_FAST`)
-   - Same **Channel** name and pre-shared key (PSK) — default channel works
-     out of the box if you haven't changed it.
+   - Same **Bandwidth**
+   - Same **Channel** name.   
 4. **Set up each system with its own node**, following the connection steps
    in Section 3, one node per laptop.
 5. **Send a message:**
    - Open the **Chats** tab in MeshApp.
-   - Type a message on the default channel and send.
+   - Select the device name for making communication.
    - On the other system's MeshApp, the message should appear in Chats on
      the same channel within a few seconds.
    - You can verify delivery in the **Packet Table / Logs** view: a
      `TEXT_MESSAGE_APP` packet going out, followed by a `ROUTING_APP` ack
      with `error=NONE` confirms clean delivery.
-6. **(Optional) Show nodes on the Map:**
-   - The Map only plots nodes with position data. The XIAO ESP32S3 +
-     Wio-SX1262 has no onboard GPS, so set a manual location: Device
-     Settings → **Fixed Position** → enter latitude/longitude → Save.
-   - Each node needs its own Fixed Position set. Once a node broadcasts its
-     position (check the **Position** config's broadcast interval — long by
-     default), any MeshApp instance connected to a node that hears that
-     broadcast over the mesh will plot it on its own Map. There's no shared
-     cloud database — each MeshApp instance's node list/map is local and
-     fed purely from what its own connected node has heard over LoRa RF.
 
 ---
 
-## Notes on Roles and Data Scope
+## Note
 
 - Nodes default to **role = CLIENT** — a normal mesh participant that
   sends, receives, and relays messages. No change needed for basic chat.
-- `NODEINFO_APP` packets are how nodes announce themselves (name, role,
-  hardware) to others on the mesh; `ADMIN_APP: ADD_CONTACT` entries are
-  local bookkeeping in your own node's contact list, not sent over the air.
-- Each MeshApp instance only knows about nodes its own connected radio has
-  directly heard or received via mesh relay — there is no internet-wide or
-  cross-user shared database in this setup.
