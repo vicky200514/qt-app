@@ -26,8 +26,11 @@
   
 <img width="1221" height="532" alt="image" src="https://github.com/user-attachments/assets/6d9894ea-ff41-4d68-9360-c0eece23de8f" />
 
+9. Select the Connected USB Port  
 
- A successful flash log looks like this 
+<img width="1515" height="652" alt="Screenshot 2026-09-02 152206" src="https://github.com/user-attachments/assets/5960fab8-1f07-47a2-8af0-3530d3734dde" />
+    
+A successful flash log looks like this 
 
 <img width="1222" height="340" alt="image" src="https://github.com/user-attachments/assets/28e90af2-3cb9-4d40-af5b-2f3e112a8778" />
 
