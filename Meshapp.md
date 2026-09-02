@@ -85,7 +85,7 @@ This all should be same as for another node that you are going to communicate
 
 <img width="1257" height="381" alt="image" src="https://github.com/user-attachments/assets/3c70e911-d40a-4980-ada8-e577d5d29543" />
 
-# 5 Steps for Send and view Message 
+# 5. Steps for Send and view Message 
 1. Go to `Nodes` list in MeshApp
 2. Select the Node you are going to communicate and Click `private chat`
 
