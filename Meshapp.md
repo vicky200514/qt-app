@@ -51,15 +51,28 @@
    <img width="1917" height="605" alt="image" src="https://github.com/user-attachments/assets/b96038df-c2fd-41e8-b633-03d8426bdaf6" />
 
 3. Select the `Serial/USB` in the Connection type
-4. Select the `Meshtastic` in the Protocol
-5. Add Name for the Node and Click Autoconnect
-6. Select the connected USB Port that shows in your Device Manager.
-   
-7. Select the Baud rate as `115200`
-8. Select the Auto in `DTR/RTS lines`
-9. Click Save
 
-<img width="416" height="697" alt="Screenshot 2026-09-02 075205" src="https://github.com/user-attachments/assets/e51d7036-2550-4dad-a604-133a2968dc87" />
+   <img width="375" height="86" alt="image" src="https://github.com/user-attachments/assets/b2434796-c667-44d4-8e87-04c6d180882b" />
+
+4. Select the `Meshtastic` in the Protocol
+
+   <img width="425" height="82" alt="image" src="https://github.com/user-attachments/assets/68cf4ea1-bdc5-44ad-8c7e-1a94fa5b7c9f" />
+
+6. Add Name for the Node and Click Autoconnect
+
+   <img width="422" height="117" alt="image" src="https://github.com/user-attachments/assets/834c74ce-045d-42d7-96df-edf741e02a45" />
+
+7. Select the connected USB Port that shows in your Device Manager.
+
+   <img width="461" height="210" alt="image" src="https://github.com/user-attachments/assets/f9831359-7bab-4dc5-a2a4-8da7b76cf81d" />
+
+9. Select the Baud rate as `115200`
+
+   <img width="410" height="92" alt="image" src="https://github.com/user-attachments/assets/589abe98-36a2-4e58-8dfe-52d9841c1774" />
+ 
+11. Select the Auto in `DTR/RTS lines` option and then click save.
+
+    <img width="421" height="162" alt="image" src="https://github.com/user-attachments/assets/bbff4204-49a3-4973-b341-e8f2f44a5076" />
 
 10. Click Connect 
 
