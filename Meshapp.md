@@ -18,11 +18,11 @@
    If unplugged: Press and hold the BOOT / USR button while connecting the USB cable to        your system.
 
    If already plugged in: Hold down the BOOT button, press the RESET button once, then         release the BOOT button.
-8. Select the Baud rate as 115200
+7. Select the Baud rate as 115200
 
 <img width="1198" height="276" alt="Screenshot 2026-09-01 220148" src="https://github.com/user-attachments/assets/8591513d-d810-4a1c-9ca6-2a67e6faf852" />
 
-9. In the Flash Firmware, Enable **Full erase and Install button** and then click **Erase flash and Install**.
+8. In the Flash Firmware, Enable **Full erase and Install button** and then click **Erase flash and Install**.
   
 <img width="1221" height="532" alt="image" src="https://github.com/user-attachments/assets/6d9894ea-ff41-4d68-9360-c0eece23de8f" />
 
@@ -58,23 +58,23 @@
 
    <img width="425" height="82" alt="image" src="https://github.com/user-attachments/assets/68cf4ea1-bdc5-44ad-8c7e-1a94fa5b7c9f" />
 
-6. Add Name for the Node and Click Autoconnect
+5. Add Name for the Node and Click Autoconnect
 
    <img width="422" height="117" alt="image" src="https://github.com/user-attachments/assets/834c74ce-045d-42d7-96df-edf741e02a45" />
 
-7. Select the connected USB Port that shows in your Device Manager.
+6. Select the connected USB Port that shows in your Device Manager.
 
    <img width="461" height="210" alt="image" src="https://github.com/user-attachments/assets/f9831359-7bab-4dc5-a2a4-8da7b76cf81d" />
 
-9. Select the Baud rate as `115200`
+7. Select the Baud rate as `115200`
 
    <img width="410" height="92" alt="image" src="https://github.com/user-attachments/assets/589abe98-36a2-4e58-8dfe-52d9841c1774" />
  
-11. Select the Auto in `DTR/RTS lines` option and then click save.
+8. Select the Auto in `DTR/RTS lines` option and then click save.
 
     <img width="421" height="162" alt="image" src="https://github.com/user-attachments/assets/bbff4204-49a3-4973-b341-e8f2f44a5076" />
 
-10. Click Connect 
+9. Click Connect 
 
 <img width="1852" height="276" alt="image" src="https://github.com/user-attachments/assets/58ee52db-1ddf-4224-ba39-b1926e608d37" />
 
@@ -95,22 +95,22 @@ On some distributions the group is named `uucp` or `lock`; use the group shown b
 If the error looks like `Device or resource busy`, the port is already open in another process: serial monitor, CLI, or ModemManager.
 
 # 4. Steps for Node Configuration
-After the Deice Get connected, wait for some minute because the configuration settings get process
+After the Device Get connected, wait for some time the configuration getting process.
 
 <img width="1850" height="227" alt="image" src="https://github.com/user-attachments/assets/1b2874ff-112c-414b-90d2-31c10d42e032" />
 
 1. Go to Settings
 2. Click LoRa
-3. Select Modem preset as LONG_FAST
-4. Select Bandwidth
+3. Select Modem preset as `LONG_FAST`
+4. Select Bandwidth as `250`
 5. Select Region as `IN`(Indian Band)
-6. Select Channel Number
+6. Select Channel Number 
 
 <img width="1215" height="822" alt="image" src="https://github.com/user-attachments/assets/a890d59b-a24a-4c64-b21e-0d67d25d662d" />
 
-This all should be same as for another node that you are going to communicate    
+This all should be same for all the nodes in the mesh.    
 
-7. Click upload that send the changed settings to the node
+7. Click upload that update the changed configurations in the node.
 
 <img width="1257" height="381" alt="image" src="https://github.com/user-attachments/assets/3c70e911-d40a-4980-ada8-e577d5d29543" />
 
