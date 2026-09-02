@@ -33,7 +33,7 @@
 
 # 2. Steps for Download and Installation of Meshapp 
 1. Ready-made packages are published on the [Gitea Release Packages](https://git.privatepractice.app/covox/meshapp/releases/) 
-2. Select the Appropriate Package version (eg: MeshApp v2.3.12)
+2. Select the Package version `MeshApp v2.3.12`
 
 <img width="1627" height="772" alt="image" src="https://github.com/user-attachments/assets/931baefb-bca4-4d7a-8cf7-283cc2f93ea8" />
 
