@@ -10,11 +10,13 @@
 
 4. After the selection of node module the firmware automatically gets selected, for further changing firmware by clicking the file upload widget and select the stable firmware version.
    
-<img width="1917" height="862" alt="image" src="https://github.com/user-attachments/assets/ebcd1d1d-fe10-4a76-916e-bfb19a938ee4" />
+<img width="1896" height="916" alt="Screenshot 2026-09-02 145628" src="https://github.com/user-attachments/assets/fd5d05b7-1865-44a7-a492-18bfe73a5485" />
 
 5. Click Flash then click Continue.
 6. Put your controller into the bootloader mode while flashing.
-7. Select the Baud rate as 115200 and then click **Erase flash and Install**.
+   If unplugged: Press and hold the BOOT / USR button while connecting the USB cable to        your system.
+   If already plugged in: Hold down the BOOT button, press the RESET button once, then         release the BOOT button.
+8. Select the Baud rate as 115200 and then click **Erase flash and Install**.
 
    <img width="1198" height="276" alt="Screenshot 2026-09-01 220148" src="https://github.com/user-attachments/assets/8591513d-d810-4a1c-9ca6-2a67e6faf852" />
    <img width="1221" height="532" alt="image" src="https://github.com/user-attachments/assets/6d9894ea-ff41-4d68-9360-c0eece23de8f" />
