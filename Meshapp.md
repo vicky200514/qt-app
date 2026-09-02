@@ -64,3 +64,39 @@ sudo usermod -aG dialout "$USER"
 On some distributions the group is named `uucp` or `lock`; use the group shown by `ls -l`. After changing groups, log out and log back in.
 
 If the error looks like `Device or resource busy`, the port is already open in another process: serial monitor, CLI, or ModemManager.
+
+# 4 Steps for Node Configuration
+After the Deice Get connected, wait for some minute because the configuration settings get process
+
+<img width="1850" height="227" alt="image" src="https://github.com/user-attachments/assets/1b2874ff-112c-414b-90d2-31c10d42e032" />
+
+1. Go to Settings
+2. Click LoRa
+3. Select Modem preset as LONG_FAST
+4. Select Bandwidth
+5. Select Region as `IN`(Indian Band)
+6. Select Channel Number
+
+<img width="1215" height="822" alt="image" src="https://github.com/user-attachments/assets/a890d59b-a24a-4c64-b21e-0d67d25d662d" />
+
+This all should be same as for another node that you are going to communicate    
+
+7. Click upload that send the changed settings to the node
+
+<img width="1257" height="381" alt="image" src="https://github.com/user-attachments/assets/3c70e911-d40a-4980-ada8-e577d5d29543" />
+
+# 5 Steps for Send and view Message 
+1. Go to `Nodes` list in MeshApp
+2. Select the Node you are going to communicate and Click `private chat`
+
+<img width="1917" height="1021" alt="Screenshot 2026-09-02 093945" src="https://github.com/user-attachments/assets/975d633f-884a-42d3-bf67-2beb4e6f7443" />
+
+3. Type Message (eg: Hi hello) and Click `Send`
+
+<img width="1250" height="717" alt="Screenshot 2026-09-01 125503" src="https://github.com/user-attachments/assets/b6d068e7-d945-49ec-913d-2dca91d902f0" />
+
+4. Go to receiver node Meshapp and click the message , you will received the message (eg:Hi hello)
+
+<img width="1917" height="1021" alt="Screenshot 2026-09-01 124934" src="https://github.com/user-attachments/assets/4fab0d31-2060-46a0-a076-6b8ca4ce6f50" />
+
+   
