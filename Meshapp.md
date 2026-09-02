@@ -42,9 +42,10 @@
 4. Select the `Meshtastic` in the Protocol
 5. Add Name for the Node and Click Autoconnect
 6. Select the connected USB Port that shows in your Device Manager.
-7. Select the Baud rate as `115200`
-8. Select the Auto in `DTR/RTS lines`
-9. Click Save
+   
+8. Select the Baud rate as `115200`
+9. Select the Auto in `DTR/RTS lines`
+10. Click Save
 
 <img width="416" height="697" alt="Screenshot 2026-09-02 075205" src="https://github.com/user-attachments/assets/e51d7036-2550-4dad-a604-133a2968dc87" />
 
@@ -52,3 +53,13 @@
 
 <img width="1852" height="276" alt="image" src="https://github.com/user-attachments/assets/58ee52db-1ddf-4224-ba39-b1926e608d37" />
 
+* Note: 
+If you facing connection issue
+Linux: USB Serial Access
+If the USB port is visible but the connection fails with Permission denied, the user does not have access to /dev/ttyUSB* or /dev/ttyACM*.
+```bash
+ls -l /dev/ttyUSB0
+sudo usermod -aG dialout "$USER"
+```
+On some distributions the group is named uucp or lock; use the group shown by ls -l. After changing groups, log out and log back in.
+If the error looks like Device or resource busy, the port is already open in another process: serial monitor, CLI, or ModemManager.
