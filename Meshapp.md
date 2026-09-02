@@ -62,7 +62,7 @@
 <img width="1852" height="276" alt="image" src="https://github.com/user-attachments/assets/58ee52db-1ddf-4224-ba39-b1926e608d37" />
 
 * Note: 
-If you facing connection issue
+If you facing USB connection issue in Linux
 
 Linux: USB Serial Access
 
