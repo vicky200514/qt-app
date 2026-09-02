@@ -1,10 +1,10 @@
 # 1. Steps for flashing the Firmware to the node module
 1. Go to the [Meshtastic Web Flasher](https://flasher.meshtastic.org/) to flash the node.
-2. Click the target device widget in the brower. 
+2. Click the target device widget in the screen. 
 
 <img width="1882" height="912" alt="Screenshot 2026-09-01 174319" src="https://github.com/user-attachments/assets/e52250cd-1577-4a3e-b57d-95743bb9edb1" />
 
-3. Select the node module Seed XIAO ESP32-S3 
+3. Select the node module Seed XIAO ESP32-S3. 
    
 <img width="1575" height="513" alt="Screenshot 2026-09-01 214418" src="https://github.com/user-attachments/assets/4609c339-2b4a-4e4a-83fc-6dbcdd4eeb9f" />
 
@@ -110,6 +110,12 @@ After the Device Get connected, wait for some time the configuration getting pro
 6. Select Channel Number 
 
 <img width="1215" height="822" alt="image" src="https://github.com/user-attachments/assets/a890d59b-a24a-4c64-b21e-0d67d25d662d" />
+
+7. In Settings, Click Serial 
+8. Click Enable option
+9. Select Baud rate as `BAUD_115200`
+
+<img width="1612" height="443" alt="Screenshot 2026-09-02 165443" src="https://github.com/user-attachments/assets/15d621de-ea4a-4736-8b1c-0d995a39ac84" />
 
 This all should be same for all the nodes in the mesh.    
 
