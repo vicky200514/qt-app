@@ -22,11 +22,11 @@
 
 <img width="1198" height="276" alt="Screenshot 2026-09-01 220148" src="https://github.com/user-attachments/assets/8591513d-d810-4a1c-9ca6-2a67e6faf852" />
 
-8. In the Flash Firmware, Enable **Full erase and Install button** and then click **Erase flash and Install**.
+8. In the Flash Firmware, Enable **Full erase and Install button** then click **Erase flash and Install**. 
   
 <img width="1221" height="532" alt="image" src="https://github.com/user-attachments/assets/6d9894ea-ff41-4d68-9360-c0eece23de8f" />
 
-9. Select the Connected USB Port  
+9. After clicking **Erase flash and Install** it asks port to connect then Select the Connected USB Port and click **Erase flash and Install** again.  
 
 <img width="1515" height="652" alt="Screenshot 2026-09-02 152206" src="https://github.com/user-attachments/assets/5960fab8-1f07-47a2-8af0-3530d3734dde" />
     
