@@ -26,6 +26,7 @@
   
 <img width="1221" height="532" alt="image" src="https://github.com/user-attachments/assets/6d9894ea-ff41-4d68-9360-c0eece23de8f" />
 
+
  A successful flash log looks like this 
 
 <img width="1222" height="340" alt="image" src="https://github.com/user-attachments/assets/28e90af2-3cb9-4d40-af5b-2f3e112a8778" />
