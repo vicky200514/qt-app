@@ -14,7 +14,9 @@
 
 5. Click Flash then click Continue.
 6. Put your controller into the bootloader mode while flashing.
+
    If unplugged: Press and hold the BOOT / USR button while connecting the USB cable to        your system.
+
    If already plugged in: Hold down the BOOT button, press the RESET button once, then         release the BOOT button.
 8. Select the Baud rate as 115200 and then click **Erase flash and Install**.
 
