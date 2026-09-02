@@ -109,8 +109,10 @@ After the Device Get connected, wait for some time the configuration getting pro
 5. Select Region as `IN`(Indian Band)
 6. Select Channel Number 
 
-<img width="1215" height="822" alt="Figure 1" src="https://github.com/user-attachments/assets/a890d59b-a24a-4c64-b21e-0d67d25d662d" />
-**Figure 1: LoRa Node Settings**
+<figure>
+  <img width="1215" height="822" alt="Figure 1: LoRa Node Configuration Settings" src="https://github.com/user-attachments/assets/a890d59b-a24a-4c64-b21e-0d67d25d662d" />
+  <figcaption><strong>Figure 1:</strong> LoRa Node Configuration Settings</figcaption>
+</figure>
                                  
 7. In Settings, Click Serial 
 8. Click Enable option
