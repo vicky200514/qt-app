@@ -4,7 +4,7 @@
    
 <img width="1882" height="912" alt="Screenshot 2026-09-01 174319" src="https://github.com/user-attachments/assets/3682fb11-bfed-4cb8-b52c-e3fbc7b0d61a" />
 
-4. Select the node module ( Eg: Seed XIAO ESP32-S3 )
+3. Select the node module ( Eg: Seed XIAO ESP32-S3 )
    
 <img width="1575" height="512" alt="image" src="https://github.com/user-attachments/assets/d75f4d7f-41b5-40ee-aa3b-890d1054a1f8" />
 
@@ -33,12 +33,12 @@
 
 <img width="1627" height="772" alt="image" src="https://github.com/user-attachments/assets/931baefb-bca4-4d7a-8cf7-283cc2f93ea8" />
 
-4. Select the Download Package based on your Operating systems
+3. Select the Download Package based on your Operating systems
   * macOS: download the `.dmg`, open it, and move MeshApp to Applications.
   * Windows: download and run the `.msi` installer.
   * Debian / Ubuntu: download the `.deb` package and install it with apt or your package          manager.
   * Linux AppImage: download the `.AppImage`, make it executable, and run it.
-5. After Download Install the MessApp in your System.
+4. After Download Install the MessApp in your System.
 
 # 3. Setup for MessApp
 1. Open the MessApp
@@ -51,9 +51,9 @@
 5. Add Name for the Node and Click Autoconnect
 6. Select the connected USB Port that shows in your Device Manager.
    
-8. Select the Baud rate as `115200`
-9. Select the Auto in `DTR/RTS lines`
-10. Click Save
+7. Select the Baud rate as `115200`
+8. Select the Auto in `DTR/RTS lines`
+9. Click Save
 
 <img width="416" height="697" alt="Screenshot 2026-09-02 075205" src="https://github.com/user-attachments/assets/e51d7036-2550-4dad-a604-133a2968dc87" />
 
