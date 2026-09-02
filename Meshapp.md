@@ -26,7 +26,7 @@
 <img width="1627" height="772" alt="image" src="https://github.com/user-attachments/assets/931baefb-bca4-4d7a-8cf7-283cc2f93ea8" />
 
 4. Select the Download Package based on your Operating systems
-       * macOS: download the .dmg, open it, and move MeshApp to Applications.
-       * Windows: download and run the .msi installer.
-       * Debian / Ubuntu: download the .deb package and install it with apt or your package          manager.
-       * Linux AppImage: download the .AppImage, make it executable, and run it.
+  * macOS: download the .dmg, open it, and move MeshApp to Applications.
+  * Windows: download and run the .msi installer.
+  * Debian / Ubuntu: download the .deb package and install it with apt or your package          manager.
+  * Linux AppImage: download the .AppImage, make it executable, and run it.
