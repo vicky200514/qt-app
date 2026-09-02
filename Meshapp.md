@@ -88,7 +88,7 @@ If the USB port is visible but the connection fails with Permission denied, the 
 ls -l /dev/ttyUSB0
 sudo usermod -aG dialout "$USER"
 ```
-Execute The above command
+Execute The above command and then log out and log in.
 
 On some distributions the group is named `uucp` or `lock`; use the group shown by `ls -l`. After changing groups, log out and log back in.
 
