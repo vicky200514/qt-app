@@ -73,7 +73,7 @@ On some distributions the group is named `uucp` or `lock`; use the group shown b
 
 If the error looks like `Device or resource busy`, the port is already open in another process: serial monitor, CLI, or ModemManager.
 
-# 4 Steps for Node Configuration
+# 4. Steps for Node Configuration
 After the Deice Get connected, wait for some minute because the configuration settings get process
 
 <img width="1850" height="227" alt="image" src="https://github.com/user-attachments/assets/1b2874ff-112c-414b-90d2-31c10d42e032" />
