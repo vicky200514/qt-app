@@ -114,15 +114,18 @@ After the Device Get connected, wait for some time the configuration getting pro
   <figcaption><strong>Figure 1:</strong> LoRa Node Configuration Settings</figcaption>
 </figure>
 
+
                                  
 7. In Settings, Click Serial 
 8. Click Enable option
 9. Select Baud rate as `BAUD_115200`
 
+
 <figure>
   <img width="1612" height="443" alt="Figure 2: Serial Configuration settings" src="https://github.com/user-attachments/assets/15d621de-ea4a-4736-8b1c-0d995a39ac84" />
   <figcaption><strong>Figure 2:</strong> Serial Configuration settings</figcaption>
 </figure>
+
 
 
 **This all should be same for all the nodes in the mesh**.    
