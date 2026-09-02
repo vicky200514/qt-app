@@ -6,6 +6,7 @@
 <img width="1575" height="512" alt="image" src="https://github.com/user-attachments/assets/d75f4d7f-41b5-40ee-aa3b-890d1054a1f8" />
 4. After the selection of node module the firmware automatically gets selected , for further changing firmware by clicking the file upload widget and select the stable version firmware.
 <img width="1917" height="862" alt="image" src="https://github.com/user-attachments/assets/ebcd1d1d-fe10-4a76-916e-bfb19a938ee4" />
+
 5. Click Flash then click Continue.
 6. Put your controller into the bootloader mode while flashing.
 7. Select the Baud rate and Enable **Full erase and Install** Widget if you are flashing for the first time, then click **Erase flash and Install**.
