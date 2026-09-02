@@ -47,4 +47,8 @@
 9. Click Save
 
 <img width="416" height="697" alt="Screenshot 2026-09-02 075205" src="https://github.com/user-attachments/assets/e51d7036-2550-4dad-a604-133a2968dc87" />
- 
+
+10. Click Connect 
+
+<img width="1852" height="276" alt="image" src="https://github.com/user-attachments/assets/58ee52db-1ddf-4224-ba39-b1926e608d37" />
+
