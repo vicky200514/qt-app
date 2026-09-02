@@ -116,7 +116,7 @@ After the Device Get connected, wait for some time the configuration getting pro
 
 
                                  
-7. In Settings, Click Serial 
+7. In Settings, Click Serial (see figure 2)
 8. Click Enable option
 9. Select Baud rate as `BAUD_115200`
 
