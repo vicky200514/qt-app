@@ -26,7 +26,7 @@
   
 <img width="1221" height="532" alt="image" src="https://github.com/user-attachments/assets/6d9894ea-ff41-4d68-9360-c0eece23de8f" />
 
-9. After clicking **Erase flash and Install** it asks port to connect then Select the Connected USB Port and click **Erase flash and Install** again.  
+9. After clicking **Erase flash and Install** option, it asks port for connect then Select the Connected USB Port and click **Erase flash and Install** again.  
 
 <img width="1515" height="652" alt="Screenshot 2026-09-02 152206" src="https://github.com/user-attachments/assets/5960fab8-1f07-47a2-8af0-3530d3734dde" />
     
@@ -45,7 +45,7 @@ A successful flash log looks like this
   * Windows: download and run the `.msi` installer.
   * Debian / Ubuntu: download the `.deb` package and install it with apt or your package          manager.
   * Linux AppImage: download the `.AppImage`, make it executable, and run it.
-4. After Download Install the MessApp in your System.
+4. After Download, Install the MessApp in your System.
 
 # 3. Setup for MessApp
 1. Open the MessApp
@@ -53,7 +53,7 @@ A successful flash log looks like this
 
    <img width="1917" height="605" alt="image" src="https://github.com/user-attachments/assets/b96038df-c2fd-41e8-b633-03d8426bdaf6" />
 
-3. Select the `Serial/USB` in the Connection type
+3. Select the `Serial/USB` in the connection type
 
    <img width="375" height="86" alt="image" src="https://github.com/user-attachments/assets/b2434796-c667-44d4-8e87-04c6d180882b" />
 
@@ -61,15 +61,15 @@ A successful flash log looks like this
 
    <img width="425" height="82" alt="image" src="https://github.com/user-attachments/assets/68cf4ea1-bdc5-44ad-8c7e-1a94fa5b7c9f" />
 
-5. Add Name for the Node and Click Autoconnect
+5. Add name for the node and click autoconnect.
 
    <img width="422" height="117" alt="image" src="https://github.com/user-attachments/assets/834c74ce-045d-42d7-96df-edf741e02a45" />
 
-6. Select the connected USB Port that shows in your Device Manager.
+6. Select the connected USB port.
 
    <img width="461" height="210" alt="image" src="https://github.com/user-attachments/assets/f9831359-7bab-4dc5-a2a4-8da7b76cf81d" />
 
-7. Select the Baud rate as `115200`
+7. Select the baud rate as `115200`
 
    <img width="410" height="92" alt="image" src="https://github.com/user-attachments/assets/589abe98-36a2-4e58-8dfe-52d9841c1774" />
  
@@ -77,7 +77,7 @@ A successful flash log looks like this
 
     <img width="421" height="162" alt="image" src="https://github.com/user-attachments/assets/bbff4204-49a3-4973-b341-e8f2f44a5076" />
 
-9. Click Connect 
+9. Click connect 
 
 <img width="1852" height="276" alt="image" src="https://github.com/user-attachments/assets/58ee52db-1ddf-4224-ba39-b1926e608d37" />
 
@@ -91,7 +91,7 @@ If the USB port is visible but the connection fails with Permission denied, the 
 ls -l /dev/ttyUSB0
 sudo usermod -aG dialout "$USER"
 ```
-Execute The above command and then log out and log in.
+Execute The above command and then log out and log in your system.
 
 On some distributions the group is named `uucp` or `lock`; use the group shown by `ls -l`. After changing groups, log out and log back in.
 
