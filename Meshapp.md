@@ -19,6 +19,14 @@
    <img width="1198" height="276" alt="Screenshot 2026-09-01 220148" src="https://github.com/user-attachments/assets/8591513d-d810-4a1c-9ca6-2a67e6faf852" />
    <img width="1221" height="532" alt="image" src="https://github.com/user-attachments/assets/6d9894ea-ff41-4d68-9360-c0eece23de8f" />
 
+ A successful flash log ends with:
+   ```
+   Writing at 0x670000... (100%)
+   Wrote 1572864 bytes (1875 compressed) at 0x670000 in ...
+   Leaving...
+   Hard resetting via RTS pin...
+   ```
+
 # 2. Steps for Download and Installation of Meshapp 
 1. Ready-made packages are published on the [Gitea Release Packages](https://git.privatepractice.app/covox/meshapp/releases/) 
 2. Select the Appropriate Package version (eg: MeshApp v2.3.12)
