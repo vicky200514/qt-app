@@ -7,10 +7,11 @@
 4. After the selection of node module the firmware automatically gets selected , for further changing firmware by clicking the file upload widget and select the stable version firmware.
 <img width="1917" height="862" alt="image" src="https://github.com/user-attachments/assets/ebcd1d1d-fe10-4a76-916e-bfb19a938ee4" />
 5. Click Flash then click Continue.
-6. Put your controller into the bootloader mode while flashing 
-7. Select the Baud rate and Enable** Full erase and Install** Widget if you flashing first time and then click Erase flash and Install.
-<img width="1198" height="276" alt="Screenshot 2026-09-01 220148" src="https://github.com/user-attachments/assets/8591513d-d810-4a1c-9ca6-2a67e6faf852" />
-<img width="1221" height="532" alt="image" src="https://github.com/user-attachments/assets/6d9894ea-ff41-4d68-9360-c0eece23de8f" />
+6. Put your controller into the bootloader mode while flashing.
+7. Select the Baud rate and Enable **Full erase and Install** Widget if you are flashing for the first time, then click **Erase flash and Install**.
+
+   <img width="1198" height="276" alt="Screenshot 2026-09-01 220148" src="https://github.com/user-attachments/assets/8591513d-d810-4a1c-9ca6-2a67e6faf852" />
+   <img width="1221" height="532" alt="image" src="https://github.com/user-attachments/assets/6d9894ea-ff41-4d68-9360-c0eece23de8f" />
 
 # 2. Steps for Download and Installation of Meshapp 
 1. Ready-made packages are published on the [Gitea Release Packages](https://git.privatepractice.app/covox/meshapp/releases/) 
