@@ -102,15 +102,16 @@ After the Device Get connected, wait for some time the configuration getting pro
 
 <img width="1850" height="227" alt="image" src="https://github.com/user-attachments/assets/1b2874ff-112c-414b-90d2-31c10d42e032" />
 
-1. Go to Settings
+1. Go to Settings ( see Figure 1 )
 2. Click LoRa
 3. Select Modem preset as `LONG_FAST`
 4. Select Bandwidth as `250`
 5. Select Region as `IN`(Indian Band)
 6. Select Channel Number 
 
-<img width="1215" height="822" alt="image" src="https://github.com/user-attachments/assets/a890d59b-a24a-4c64-b21e-0d67d25d662d" />
-
+<img width="1215" height="822" alt="Figure 1" src="https://github.com/user-attachments/assets/a890d59b-a24a-4c64-b21e-0d67d25d662d" />
+**Figure 1: LoRa Node Settings**
+                                 
 7. In Settings, Click Serial 
 8. Click Enable option
 9. Select Baud rate as `BAUD_115200`
