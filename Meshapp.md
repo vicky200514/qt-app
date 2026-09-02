@@ -13,4 +13,11 @@
 <img width="1221" height="532" alt="image" src="https://github.com/user-attachments/assets/6d9894ea-ff41-4d68-9360-c0eece23de8f" />
 
 # 2. Steps for Download and Installation of Meshapp 
-Ready-made packages are published on the [Gitea Release Packages](https://git.privatepractice.app/covox/meshapp/releases/) 
+1. Ready-made packages are published on the [Gitea Release Packages](https://git.privatepractice.app/covox/meshapp/releases/) 
+2. Select the Appropriate Package version (eg: MeshApp v2.3.12)
+<img width="1627" height="772" alt="image" src="https://github.com/user-attachments/assets/931baefb-bca4-4d7a-8cf7-283cc2f93ea8" />
+3. Select the Download Package based on your Operating systems
+       * macOS: download the .dmg, open it, and move MeshApp to Applications.
+       * Windows: download and run the .msi installer.
+       * Debian / Ubuntu: download the .deb package and install it with apt or your package          manager.
+       * Linux AppImage: download the .AppImage, make it executable, and run it.
