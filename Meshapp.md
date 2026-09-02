@@ -31,3 +31,20 @@
   * Debian / Ubuntu: download the `.deb` package and install it with apt or your package          manager.
   * Linux AppImage: download the `.AppImage`, make it executable, and run it.
 5. After Download Install the MessApp in your System.
+
+# 3. Setup for MessApp
+1. Open the MessApp
+2. Go to Connections and Click add (+)
+
+   <img width="1917" height="605" alt="image" src="https://github.com/user-attachments/assets/b96038df-c2fd-41e8-b633-03d8426bdaf6" />
+
+3. Select the `Serial/USB` in the Connection type
+4. Select the `Meshtastic` in the Protocol
+5. Add Name for the Node and Click Autoconnect
+6. Select the connected USB Port that shows in your Device Manager.
+7. Select the Baud rate as `115200`
+8. Select the Auto in `DTR/RTS lines`
+9. Click Save
+
+<img width="416" height="697" alt="Screenshot 2026-09-02 075205" src="https://github.com/user-attachments/assets/e51d7036-2550-4dad-a604-133a2968dc87" />
+ 
