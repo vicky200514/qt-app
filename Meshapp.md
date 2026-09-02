@@ -63,12 +63,16 @@
 
 * Note: 
 If you facing connection issue
+
 Linux: USB Serial Access
-If the USB port is visible but the connection fails with Permission denied, the user does not have access to /dev/ttyUSB* or /dev/ttyACM*.
+
+If the USB port is visible but the connection fails with Permission denied, the user does not have access to `/dev/ttyUSB*` or `/dev/ttyACM*`.
 ```bash
 ls -l /dev/ttyUSB0
 sudo usermod -aG dialout "$USER"
 ```
+Execute The above command
+
 On some distributions the group is named `uucp` or `lock`; use the group shown by `ls -l`. After changing groups, log out and log back in.
 
 If the error looks like `Device or resource busy`, the port is already open in another process: serial monitor, CLI, or ModemManager.
