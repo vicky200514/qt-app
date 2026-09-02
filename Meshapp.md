@@ -1,6 +1,6 @@
 # 1. Steps for flashing the Firmware to the node module
 1. Go to the [Meshtastic Web Flasher](https://flasher.meshtastic.org/) to flash the node.
-2. Select the target device
+2. Click the target device widget in the brower. 
 
 <img width="1882" height="912" alt="Screenshot 2026-09-01 174319" src="https://github.com/user-attachments/assets/e52250cd-1577-4a3e-b57d-95743bb9edb1" />
 
@@ -8,7 +8,7 @@
    
 <img width="1575" height="513" alt="Screenshot 2026-09-01 214418" src="https://github.com/user-attachments/assets/4609c339-2b4a-4e4a-83fc-6dbcdd4eeb9f" />
 
-4. After the selection of node module the firmware automatically gets selected , for further changing firmware by clicking the file upload widget and select the stable firmware version.
+4. After the selection of node module the firmware automatically gets selected, for further changing firmware by clicking the file upload widget and select the stable firmware version.
    
 <img width="1917" height="862" alt="image" src="https://github.com/user-attachments/assets/ebcd1d1d-fe10-4a76-916e-bfb19a938ee4" />
 
